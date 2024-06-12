@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+#ff8700
+#282929
+#f3f3f3
+#c89455
+ */
+
+ *{
+    font-family: "Source Sans 3", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    body,html{
+        height: 100vh;
+        width: 100vw;
+        background-color:white;
+
+        
+    }
+    main,footer {
+        min-width: 300px ;
+        max-width: 900px;
+        margin: auto;
+    }
+    
+
+    div#imagem{
+        background-image: url(../imagens/0872F39C-A319-4531-AE86-F54394E6D245\ Grande.png) ;
+       
+       background-position:top center;
+       background-repeat: no-repeat;
+       
+       margin-top: 50px;
+       
+       
+    }
+    div#imagem > h1{
+        color: white;
+        font-size: 2em; 
+        text-align: center;   
+    
+    }
+    div#imagem > p {
+        color: white;
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 3em;
+        padding:0px 150px;
+    }
+    div#imagem > p > a {
+       color: black;
+       background-color: #ff8700;
+       text-decoration: none;
+       padding: 3px;
+       border-radius: 5px; 
+        
+    }
+    div#ofertas {
+        background-color:#282929 ;
+        color: white;
+        text-align: center;
+        line-height: 3em;
+        font-size: 1.2em;
+        
+    }
+    div#ofertas > p > a {
+        color: black;
+        background-color: #ff8700;
+        text-decoration: none;
+        padding: 3px;
+        border-radius: 5px; 
+    }
+    div#cakes {
+        background-color:white;
+    }
+    div#cakes > p{
+        color:black;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    div.bolo {
+        background-color: #c3caca6c;
+        width: 300px;
+        height: 400px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    
+    div.bolo > img {
+        width: 100px;
+        height: 200px;
+    }
