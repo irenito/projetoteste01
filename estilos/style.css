@@ -27,6 +27,7 @@
         min-width: 300px ;
         max-width: 900px;
         margin: auto;
+        border: 1px solid rgba(0, 0, 0, 0.15);
     }
     
     div#imagem{
@@ -35,7 +36,7 @@
        background-position:top center;
        background-repeat: no-repeat;
        
-       margin-top: 50px;
+       margin-top: 60px;
     }
 
     div#imagem > h1{
@@ -94,6 +95,7 @@
         text-align: center;
         line-height: 2.0em;
         margin-top: 20px;
+        margin-left: 80px;
         display: inline-block;
     }
     
@@ -121,6 +123,7 @@
         text-align: center;
         line-height: 2.0em;
         margin-top: 20px;
+        margin-left: 80px;
         display: inline-block
     }
 
@@ -148,6 +151,7 @@
         text-align: center;
         line-height: 2.0em;
         margin-top: 20px;
+        margin-left: 80px;
         display: inline-block;
     }
     
@@ -173,6 +177,7 @@
         text-align: center;
         line-height: 2.0em;
         margin-top: 20px;
+        margin-left: 80px;
         display: inline-block;
     }
     div.bolorecheado > img {
@@ -189,10 +194,31 @@
         padding: 3px;
         border-radius: 5px
     }
-    main > p {
+    main > a {
         color: black;
         background-color: #ff8700;
         text-decoration: none;
         padding: 3px;
-        border-radius: 5px 
+        border-radius: 5px;
+        display: block;
+        margin: auto;
+        width: 80px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    footer > div {
+        background-color: #c89455;
+        font-size: 1em;
+        line-height: 1.5em;
+        text-align: center;
+    }
+    footer h3 {
+        font-size: 2em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    footer > div > p.rodape {
+        margin-top: 30px;
+        padding-bottom: 30px;
+        
     }
