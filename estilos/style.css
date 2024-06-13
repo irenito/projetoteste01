@@ -32,9 +32,8 @@
     
     div#imagem{
         background-image: url(../imagens/0872F39C-A319-4531-AE86-F54394E6D245\ Grande.png) ;
-       
-       background-position:top center;
-       background-repeat: no-repeat;
+        background-position:top center;
+        background-repeat: no-repeat;
     }
 
     div#imagem > h1{
@@ -222,6 +221,9 @@
         height: 50px;
         border-radius: 50%;
         margin: 20px;
+    }
+    footer > div > a > img:hover {
+        border: 2px solid rgba(255, 255, 255, 0.344);
     }
     footer > div > p.rodape {
         margin-top: 30px;
