@@ -57,6 +57,9 @@
        padding: 3px;
        border-radius: 5px; 
     }
+    div#imagem a:hover {
+        background-color: #e7b87ed7;
+    }
 
     div#ofertas {
         background-color:#282929 ;
@@ -73,7 +76,9 @@
         padding: 3px;
         border-radius: 5px; 
     }
-    
+    div#ofertas a:hover {
+        background-color: #e7b87ed7;
+    }
     div#cakes {
         background-color:white;
     }
@@ -203,6 +208,12 @@
         width: 80px;
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+    main p > a:hover{
+        background-color: #e7b87ed7;
+    }
+    main a:hover {
+        background-color:#e7b87ed7;
     }
     footer > div {
         background-color: #c89455;
