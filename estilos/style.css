@@ -34,6 +34,7 @@
         background-image: url(../imagens/0872F39C-A319-4531-AE86-F54394E6D245\ Grande.png) ;
         background-position:top center;
         background-repeat: no-repeat;
+        max-height: 500px;
     }
 
     div#imagem > h1{
@@ -48,6 +49,7 @@
         text-align: center;
         line-height: 2.5em;
         padding:0px 150px;
+        
     }
     
     div#imagem > p > a {
